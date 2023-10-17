@@ -1,15 +1,15 @@
-import Section1 from "./Section1"
-import Section2 from "sectiontwo/SectionTwo";
-import Section3 from "sectionThree/Section3";
+import Section1 from "./components/Section1"
+import SectionThree from "./components/SectionThree";
+import SectionTwoApp from "./components/SectionTwoApp";
 
 const App = () => {
   return (
     <div>
       <Section1 />
       <hr />
-      <Section2 />
+      <SectionTwoApp />
       <hr />
-      <Section3 />
+      <SectionThree />
     </div>
   )
 }

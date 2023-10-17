@@ -1,10 +1,11 @@
 import Section3 from "./Section3"
+import { Router } from 'react-router-dom';
 
-const App = () => {
+const App = ({ history }) => {
   return (
-    <div>
+    <Router history={history}>
       <Section3 />
-    </div>
+    </Router>
   )
 }
 
